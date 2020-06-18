@@ -36,7 +36,7 @@ public class CalculatorActivity extends AppCompatActivity {
         calculatorViewModel.getCalculatedInterest().observe(this, new Observer<Double>() {
             @Override
             public void onChanged(Double value) {
-                String formattedText = String.format(Locale.ROOT, "Your expected interest is: %.2f", value);
+                String formattedText = String.format(Locale.ROOT, "Your expected interest is: ₦%.2f", value);
                 calculatedInterest.setText(formattedText);
             }
         });
