@@ -12,15 +12,14 @@
         <activity
             android:name=".calculator.CalculatorActivity"
             android:theme="@style/AppTheme.NoActionBar">
-        </activity>
-        <activity android:name=".InterestSignUpActivity2"></activity>
-        <activity android:name=".InterestSigninActivity2" />
-        <activity android:name=".InterestActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity android:name=".InterestActivity">
+
         </activity>
     </application>
 

@@ -102,6 +102,13 @@
                 android:minEms="10"
                 android:singleLine="true" />
 
+            <com.google.android.material.button.MaterialButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp" />
+
         </com.google.android.material.textfield.TextInputLayout>
 
     </LinearLayout>
