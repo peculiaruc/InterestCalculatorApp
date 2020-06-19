@@ -5,6 +5,8 @@
     <string name="rate_hint">Enter rate</string>
     <string name="calculate_interest">Interest Calculator</string>
     <string name="select_package_type">Select package type:</string>
+    <string name="piggy_vest_logo">PiggyVest Logo</string>
+    <string name="thousand">1000</string>
 
     <string-array name="product_type">
         <item>Flex Naira</item>
